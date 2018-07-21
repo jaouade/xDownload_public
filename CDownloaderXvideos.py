@@ -1,6 +1,7 @@
 import requests
 import bs4
 import os
+import subprocess
 import time
 from CConexao import Conexao
 
@@ -24,8 +25,8 @@ class DownloaderXvideos:
                 soup = bs4.BeautifulSoup(response.text, "html.parser")
                 for div in soup.find_all(class_='thumb'):  # thumb é a classe de div que contem os links
                     link = "https://www.xvideos.com" + str(div.find('a')['href'])
-                    commando = 'youtube-dl \"' + link + '\"' + ' --output \\' + self.pasta_saida + '\\%(title)s.%(ext)s'
-                    os.system(commando)
+                    comando = 'youtube-dl \"' + link + '\"' + ' --output \\' + self.pasta_saida + '\\%(title)s.%(ext)s'
+                    os.system(comando)
         else:
             self.tent += 1
             print("Sem conexão... Tentativa " + str(self.tent))
