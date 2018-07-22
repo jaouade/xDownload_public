@@ -38,10 +38,13 @@ txtPgIni = ttk.Entry(mainGUI, width=5)
 txtPgIni.place(x=70, y=linha2)
 
 lblAte = Label(mainGUI, text="até")
-lblAte.place(x=110, y=linha2)
+lblAte.place(x=112, y=linha2)
 
 txtPgFin = ttk.Entry(mainGUI, width=5)
 txtPgFin.place(x=140, y=linha2)
+
+lblPaginas = Label(mainGUI, text="<- (Páginas)")
+lblPaginas.place(x=180, y=linha2)
 
 lblServidor = Label(mainGUI, text="Servidor:")
 lblServidor.place(x=10, y=linha3)
