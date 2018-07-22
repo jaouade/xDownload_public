@@ -4,4 +4,3 @@
 ### Servidores Suportados
 - XVideos
 - Youporn
-- RedTube
