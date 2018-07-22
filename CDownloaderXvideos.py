@@ -1,7 +1,6 @@
 import requests
 import bs4
 import os
-import subprocess
 import time
 from CConexao import Conexao
 

@@ -1,4 +1,5 @@
 from CDownloaderXvideos import DownloaderXvideos
+from CDownloaderYouPorn import DownloaderYouPorn
 from tkinter import *
 from tkinter import ttk
 
@@ -12,6 +13,10 @@ def btnBuscarEBaixar_Click():
     if servidor == 'XVideos':
         print("Baixando de XVideos:")
         puxador = DownloaderXvideos(pasta_saida, pesquisa, pagina_ini, pagina_fin)
+        puxador.download()
+    elif servidor == 'YouPorn':
+        print("Baixando de YouPorn:")
+        puxador = DownloaderYouPorn(pasta_saida, pesquisa, pagina_ini, pagina_fin)
         puxador.download()
     else:
         print('Servidor Inválido.')
@@ -54,7 +59,7 @@ lblServidor.place(x=10, y=linha3)
 box_value = StringVar()
 cbServidor = ttk.Combobox(mainGUI, textvariable=box_value, width=27)
 cbServidor.place(x=70, y=linha3)
-cbServidor['values'] = ('XVideos')
+cbServidor['values'] = ('XVideos','YouPorn')
 
 lblSaida = Label(mainGUI, text="Pasta de Saída:")
 lblSaida.place(x=10, y=linha4)
