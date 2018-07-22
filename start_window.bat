@@ -1,1 +1,1 @@
-python mainGUI.py
+start python mainGUI.py

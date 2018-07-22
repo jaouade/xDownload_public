@@ -1,31 +1,16 @@
-from CDownloaderXvideos import DownloaderXvideos
-from CDownloaderYouPorn import DownloaderYouPorn
-from CDownloaderRedTube import DownloaderRedTube
 from tkinter import *
 from tkinter import ttk
-
+import os
 
 def btnBuscarEBaixar_Click():
-    pesquisa = txtAssunto.get()
-    pagina_ini = int(txtPgIni.get())
-    pagina_fin = int(txtPgFin.get())
-    servidor = cbServidor.get()
-    pasta_saida = txtSaida.get()
-    if servidor == 'XVideos':
-        print("Baixando de XVideos:")
-        puxador = DownloaderXvideos(pasta_saida, pesquisa, pagina_ini, pagina_fin)
-        puxador.download()
-    elif servidor == 'YouPorn':
-        print("Baixando de YouPorn:")
-        puxador = DownloaderYouPorn(pasta_saida, pesquisa, pagina_ini, pagina_fin)
-        puxador.download()
-    elif servidor == 'RedTube':
-        print("Baixando de RedTube:")
-        puxador = DownloaderRedTube(pasta_saida, pesquisa, pagina_ini, pagina_fin)
-        puxador.download()
-    else:
-        print('Servidor Inválido.')
-        pass
+    pesquisa = str(txtAssunto.get())
+    pagina_ini = str(txtPgIni.get())
+    pagina_fin = str(txtPgFin.get())
+    servidor = str(cbServidor.get())
+    pasta_saida = str(txtSaida.get())
+    # ordem: servidor, pesquisa, pagina inicial, pagina final, pasta de saida
+    comando = 'start python main.py ' + servidor + ' ' + pesquisa + ' ' + pagina_ini + ' ' + pagina_fin + ' ' + pasta_saida
+    os.system(comando)
     pass
 
 

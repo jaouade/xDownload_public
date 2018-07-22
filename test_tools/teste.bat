@@ -1,1 +1,1 @@
-youtube-dl --verbose "https://www.redtube.com.br/8358921"
+youtube-dl --verbose "https://www.redtube.com.br/8358921" &
