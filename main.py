@@ -4,7 +4,7 @@ from CDownloaderYouPorn import DownloaderYouPorn
 from CDownloaderRedTube import DownloaderRedTube
 # ordem: servidor, pesquisa, pagina inicial, pagina final, pasta de saida
 
-if len(sys.argv) == 5:
+if len(sys.argv) == 6:
     servidor = str(sys.argv[1])
     pesquisa = str(sys.argv[2])
     pagina_ini = int(sys.argv[3])
