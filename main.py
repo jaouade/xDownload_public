@@ -2,6 +2,7 @@ import sys
 from CDownloaderXvideos import DownloaderXvideos
 from CDownloaderYouPorn import DownloaderYouPorn
 from CDownloaderRedTube import DownloaderRedTube
+from CDownloaderPornHub import DownloaderPornHub
 # ordem: servidor, pesquisa, pagina inicial, pagina final, pasta de saida
 
 if len(sys.argv) == 6:
@@ -35,7 +36,15 @@ if len(sys.argv) == 6:
         print("-----------------------------------------------------------")
         puxador = DownloaderRedTube(pasta_saida, pesquisa, pagina_ini, pagina_fin)
         puxador.download()
+    elif servidor == 'PornHub':
+        print("-----------------------------------------------------------")
+        print("Servidor: PornHub")
+        print("Pesquisa: " + pesquisa)
+        print("Página " + str(pagina_ini) + " até " + str(pagina_fin))
+        print("-----------------------------------------------------------")
+        puxador = DownloaderPornHub(pasta_saida, pesquisa, pagina_ini, pagina_fin)
+        puxador.download()
     else:
         print('Servidor Inválido')
 else:
-    print('ERROR: Esperando argumentos..')
+    print('ERROR: Esperando argumentos...')
