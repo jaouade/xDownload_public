@@ -11,7 +11,6 @@ def btnBuscarEBaixar_Click():
     # ordem: servidor, pesquisa, pagina inicial, pagina final, pasta de saida
     comando = 'start python main.py ' + servidor + ' ' + pesquisa + ' ' + pagina_ini + ' ' + pagina_fin + ' ' + pasta_saida
     os.system(comando)
-    pass
 
 
 linha1 = 10

@@ -7,4 +7,3 @@ class Conexao:
             return True
         except Exception as ex:
             return False
-    pass

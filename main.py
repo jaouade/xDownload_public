@@ -36,5 +36,3 @@ elif servidor == 'RedTube':
     puxador.download()
 else:
     print('Servidor Inválido')
-    pass
-pass

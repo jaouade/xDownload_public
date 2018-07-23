@@ -15,7 +15,6 @@ class DownloaderYouPorn:
         self.i = 1
         self.tent = 0
         self.conexao = Conexao()
-        pass
 
     def download(self):
         if self.conexao.get_status():
@@ -30,6 +29,3 @@ class DownloaderYouPorn:
             self.tent += 1
             print("Sem conexão... Tentativa " + str(self.tent))
             time.sleep(5)
-        pass
-
-    pass
