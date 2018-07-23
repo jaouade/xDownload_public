@@ -37,7 +37,5 @@ if len(sys.argv) == 5:
         puxador.download()
     else:
         print('Servidor Inválido')
-        pass
-    pass
 else:
     print('ERROR: Esperando argumentos..')
