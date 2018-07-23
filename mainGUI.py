@@ -18,10 +18,11 @@ linha2 = 35
 linha3 = 60
 linha4 = 85
 linha5 = 110
+linha6 = 135
 
 mainGUI = Tk()
 mainGUI.title("xDownload V 1.0")
-mainGUI.geometry("270x155+300+300")
+mainGUI.geometry("270x150+300+300")
 mainGUI.resizable(0, 0)
 
 lblAssunto = Label(mainGUI, text="Pesquisa:")
@@ -51,7 +52,7 @@ lblServidor.place(x=10, y=linha3)
 box_value = StringVar()
 cbServidor = ttk.Combobox(mainGUI, textvariable=box_value, width=27)
 cbServidor.place(x=70, y=linha3)
-cbServidor['values'] = ('XVideos', 'YouPorn', 'RedTube', 'PornHub')
+cbServidor['values'] = ('XVideos', 'YouPorn', 'RedTube', 'PornHub', 'Beeg')
 
 lblSaida = Label(mainGUI, text="Pasta de Saída:")
 lblSaida.place(x=10, y=linha4)
@@ -60,5 +61,8 @@ txtSaida.place(x=98, y=linha4)
 
 btnBuscarEBaixar = ttk.Button(mainGUI, text = "Buscar e Baixar", command=btnBuscarEBaixar_Click, width=39)
 btnBuscarEBaixar.place(x=12, y=linha5)
+
+#lblInfo = Label(mainGUI, text="Info:")
+#lblInfo.place(x=10, y=linha6)
 
 mainGUI.mainloop()

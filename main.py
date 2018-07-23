@@ -3,6 +3,7 @@ from CDownloaderXvideos import DownloaderXvideos
 from CDownloaderYouPorn import DownloaderYouPorn
 from CDownloaderRedTube import DownloaderRedTube
 from CDownloaderPornHub import DownloaderPornHub
+from CDownloaderBeeg import DownloaderBeeg
 # ordem: servidor, pesquisa, pagina inicial, pagina final, pasta de saida
 
 if len(sys.argv) == 6:
@@ -43,6 +44,14 @@ if len(sys.argv) == 6:
         print("Página " + str(pagina_ini) + " até " + str(pagina_fin))
         print("-----------------------------------------------------------")
         puxador = DownloaderPornHub(pasta_saida, pesquisa, pagina_ini, pagina_fin)
+        puxador.download()
+    elif servidor == 'Beeg':
+        print("-----------------------------------------------------------")
+        print("Servidor: Beeg")
+        print("Pesquisa: " + pesquisa)
+        print("A página é única para este servidor.")
+        print("-----------------------------------------------------------")
+        puxador = DownloaderBeeg(pasta_saida, pesquisa, pagina_ini, pagina_fin)
         puxador.download()
     else:
         print('Servidor Inválido')
