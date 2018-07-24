@@ -4,6 +4,7 @@ from CDownloaderYouPorn import DownloaderYouPorn
 from CDownloaderRedTube import DownloaderRedTube
 from CDownloaderPornHub import DownloaderPornHub
 from CDownloaderBeeg import DownloaderBeeg
+from CDownloaderXHamster import DownloaderXHamster
 # ordem: servidor, pesquisa, pagina inicial, pagina final, pasta de saida
 
 if len(sys.argv) == 6:
@@ -53,7 +54,15 @@ if len(sys.argv) == 6:
         print("-----------------------------------------------------------")
         puxador = DownloaderBeeg(pasta_saida, pesquisa, pagina_ini, pagina_fin)
         puxador.download()
+    elif servidor == 'XHamster':
+        print("-----------------------------------------------------------")
+        print("Servidor: XHamster")
+        print("Pesquisa: " + pesquisa)
+        print("Página " + str(pagina_ini) + " até " + str(pagina_fin))
+        print("-----------------------------------------------------------")
+        puxador = DownloaderXHamster(pasta_saida, pesquisa, pagina_ini, pagina_fin)
+        puxador.download()
     else:
-        print('Servidor Inválido')
+        print('Servidor não encontrado...')
 else:
     print('ERROR: Esperando argumentos...')

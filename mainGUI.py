@@ -52,7 +52,7 @@ lblServidor.place(x=10, y=linha3)
 box_value = StringVar()
 cbServidor = ttk.Combobox(mainGUI, textvariable=box_value, width=27)
 cbServidor.place(x=70, y=linha3)
-cbServidor['values'] = ('XVideos', 'YouPorn', 'RedTube', 'PornHub', 'Beeg')
+cbServidor['values'] = ('XVideos', 'YouPorn', 'RedTube', 'PornHub', 'Beeg', 'XHamster')
 
 lblSaida = Label(mainGUI, text="Pasta de Saída:")
 lblSaida.place(x=10, y=linha4)
