@@ -3,7 +3,7 @@ from tkinter import ttk
 import os
 
 def btnBuscarEBaixar_Click():
-    pesquisa = str(txtAssunto.get())
+    pesquisa = str(txtAssunto.get()).replace(" ", "+") # substitui espaços por + para lançar na URL do site
     pagina_ini = str(txtPgIni.get())
     pagina_fin = str(txtPgFin.get())
     servidor = str(cbServidor.get())
