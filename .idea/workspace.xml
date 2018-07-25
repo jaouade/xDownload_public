@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="77e85443-f40f-4790-b49b-405f657f3b7c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CConexao.py" beforeDir="false" afterPath="$PROJECT_DIR$/CConection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDownloaderBeeg.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderBeeg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDownloaderPornHub.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderPornHub.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDownloaderRedTube.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderRedTube.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDownloaderXHamster.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderXHamster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDownloaderXvideos.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderXvideos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDownloaderYouPorn.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderYouPorn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argumentos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainGUI.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +23,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="238">
-                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <first_editor relative-caret-position="275">
+                <caret line="18" selection-start-line="18" selection-end-line="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -30,7 +38,7 @@
       <file leaf-file-name="CDownloaderXHamster.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CDownloaderXHamster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="174">
               <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -39,11 +47,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainGUI.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainGUI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" column="107" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,11 +62,32 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+            <state relative-caret-position="945">
+              <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CDownloaderXvideos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CConection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CConection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -85,11 +117,13 @@
         <option value="$PROJECT_DIR$/CDownloaderRedTube.py" />
         <option value="$PROJECT_DIR$/CDownloaderYouPorn.py" />
         <option value="$PROJECT_DIR$/CDownloaderPornHub.py" />
-        <option value="$PROJECT_DIR$/CDownloaderBeeg.py" />
         <option value="$PROJECT_DIR$/CDownloaderXHamster.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/mainGUI.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/CConetion.py" />
+        <option value="$PROJECT_DIR$/CDownloaderBeeg.py" />
+        <option value="$PROJECT_DIR$/CConection.py" />
+        <option value="$PROJECT_DIR$/mainGUI.py" />
       </list>
     </option>
   </component>
@@ -327,19 +361,26 @@
       <option name="project" value="LOCAL" />
       <updated>1532413828858</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Corrigido">
+      <created>1532531567045</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1532531567045</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15690866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1566618" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.209622" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29570746" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29570746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -418,49 +459,42 @@
     <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderYouPorn.py" />
-    <entry file="file://$PROJECT_DIR$/CConexao.py" />
+    <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderRedTube.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderYouPorn.py" />
-    <entry file="file://$PROJECT_DIR$/CConexao.py" />
+    <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/CConexao.py" />
+    <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/CConexao.py" />
+    <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.py" />
-    <entry file="file://$PROJECT_DIR$/CConexao.py" />
+    <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/CConexao.py" />
-    <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
-    <entry file="file://$PROJECT_DIR$/mainGUI.py" />
-    <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/CConexao.py" />
+    <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/CConexao.py" />
+    <entry file="file://$PROJECT_DIR$/CConection.py" />
+    <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
+    <entry file="file://$PROJECT_DIR$/mainGUI.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/venv/XVideosDownloader.py" />
     <entry file="file://$PROJECT_DIR$/argumentos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CConexao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -471,27 +505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CDownloaderRedTube.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CDownloaderXHamster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,40 +521,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CDownloaderBeeg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainGUI.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CDownloaderXHamster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CConection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="5" column="107" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        <state relative-caret-position="945">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/mainGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

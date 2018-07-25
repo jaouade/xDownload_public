@@ -2,67 +2,67 @@ from tkinter import *
 from tkinter import ttk
 import os
 
-def btnBuscarEBaixar_Click():
-    pesquisa = str(txtAssunto.get()).replace(" ", "+") # substitui espaços por + para lançar na URL do site
-    pagina_ini = str(txtPgIni.get())
-    pagina_fin = str(txtPgFin.get())
-    servidor = str(cbServidor.get())
-    pasta_saida = str(txtSaida.get())
-    # ordem: servidor, pesquisa, pagina inicial, pagina final, pasta de saida
-    comando = 'start python main.py ' + servidor + ' ' + pesquisa + ' ' + pagina_ini + ' ' + pagina_fin + ' ' + pasta_saida
-    os.system(comando)
+def btnSearchAndDownload_Click():
+    search = str(txtSearch.get()).replace(" ", "+") # replace spaces by +
+    first_page = str(txtFirstPage.get())
+    last_page = str(txtLastPage.get())
+    server = str(cbserver.get())
+    output_dir = str(txtOutput.get())
+    # ordem: server, search, firt page, last page, output dir
+    command = 'start python main.py ' + server + ' ' + search + ' ' + first_page + ' ' + last_page + ' ' + output_dir
+    os.system(command)
 
 
-linha1 = 10
-linha2 = 35
-linha3 = 60
-linha4 = 85
-linha5 = 110
-linha6 = 135
+line1 = 10
+line2 = 35
+line3 = 60
+line4 = 85
+line5 = 110
+line6 = 135
 
 mainGUI = Tk()
 mainGUI.title("xDownload V 1.0")
 mainGUI.geometry("270x150+300+300")
 mainGUI.resizable(0, 0)
 
-lblAssunto = Label(mainGUI, text="Pesquisa:")
-lblAssunto.place(x=10, y=linha1)
+lblSubject = Label(mainGUI, text="Search:")
+lblSubject.place(x=10, y=line1)
 
-txtAssunto = ttk.Entry(mainGUI, width=30)
-txtAssunto.place(x=70, y=linha1)
+txtSearch = ttk.Entry(mainGUI, width=30)
+txtSearch.place(x=70, y=line1)
 
-lblIntervalo = Label(mainGUI, text="Intervalo:")
-lblIntervalo.place(x=10, y=linha2)
+lblInterval = Label(mainGUI, text="Range:")
+lblInterval.place(x=10, y=line2)
 
-txtPgIni = ttk.Entry(mainGUI, width=5)
-txtPgIni.place(x=70, y=linha2)
+txtFirstPage = ttk.Entry(mainGUI, width=5)
+txtFirstPage.place(x=70, y=line2)
 
-lblAte = Label(mainGUI, text="até")
-lblAte.place(x=112, y=linha2)
+lblTo = Label(mainGUI, text="to")
+lblTo.place(x=112, y=line2)
 
-txtPgFin = ttk.Entry(mainGUI, width=5)
-txtPgFin.place(x=140, y=linha2)
+txtLastPage = ttk.Entry(mainGUI, width=5)
+txtLastPage.place(x=140, y=line2)
 
-lblPaginas = Label(mainGUI, text="<- (Páginas)")
-lblPaginas.place(x=180, y=linha2)
+lblPages = Label(mainGUI, text="<- (Pages)")
+lblPages.place(x=180, y=line2)
 
-lblServidor = Label(mainGUI, text="Servidor:")
-lblServidor.place(x=10, y=linha3)
+lblserver = Label(mainGUI, text="Server:")
+lblserver.place(x=10, y=line3)
 
 box_value = StringVar()
-cbServidor = ttk.Combobox(mainGUI, textvariable=box_value, width=27)
-cbServidor.place(x=70, y=linha3)
-cbServidor['values'] = ('XVideos', 'YouPorn', 'RedTube', 'PornHub', 'Beeg', 'XHamster')
+cbserver = ttk.Combobox(mainGUI, textvariable=box_value, width=27)
+cbserver.place(x=70, y=line3)
+cbserver['values'] = ('XVideos', 'YouPorn', 'RedTube', 'PornHub', 'Beeg', 'XHamster')
 
-lblSaida = Label(mainGUI, text="Pasta de Saída:")
-lblSaida.place(x=10, y=linha4)
-txtSaida = ttk.Entry(mainGUI, width=25)
-txtSaida.place(x=98, y=linha4)
+lblOutPut = Label(mainGUI, text="Output dir:")
+lblOutPut.place(x=10, y=line4)
+txtOutput = ttk.Entry(mainGUI, width=25)
+txtOutput.place(x=98, y=line4)
 
-btnBuscarEBaixar = ttk.Button(mainGUI, text = "Buscar e Baixar", command=btnBuscarEBaixar_Click, width=39)
-btnBuscarEBaixar.place(x=12, y=linha5)
+btnSearchAndDownload = ttk.Button(mainGUI, text = "Search and Download", command=btnSearchAndDownload_Click, width=39)
+btnSearchAndDownload.place(x=12, y=line5)
 
 #lblInfo = Label(mainGUI, text="Info:")
-#lblInfo.place(x=10, y=linha6)
+#lblInfo.place(x=10, y=line6)
 
 mainGUI.mainloop()
