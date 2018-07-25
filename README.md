@@ -23,4 +23,4 @@ or
 - Beeg
     - It's necessary to install Google Chrome in the directory bellow:
         `C:\Program Files (x86)\Google\Chrome\Application`
-    - It's necessary the chrome drive installed: [Download](http://chromedriver.chromium.org/downloads)
+    - It's necessary the _chromedrive_ installed: [Download](http://chromedriver.chromium.org/downloads)
