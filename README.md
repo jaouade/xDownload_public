@@ -8,7 +8,7 @@ or
 
 `python main.py [server] [search] [first page] [last page] [output dir]`
 
-### Before run this application by the archives mainGUI.py or main.py
+### Before run this application using the archives mainGUI.py or main.py
 >It's necessary to install the libraries bellow to correctly run:
 
 - requests `pip install requests`
