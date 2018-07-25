@@ -5,6 +5,7 @@ from CDownloaderRedTube import DownloaderRedTube
 from CDownloaderPornHub import DownloaderPornHub
 from CDownloaderBeeg import DownloaderBeeg
 from CDownloaderXHamster import DownloaderXHamster
+from CDownloaderEporner import DownloaderEporner
 # ordem: servidor, pesquisa, pagina inicial, pagina final, pasta de saida
 
 if len(sys.argv) == 6:
@@ -16,7 +17,7 @@ if len(sys.argv) == 6:
 
     if server == 'XVideos':
         print("-----------------------------------------------------------")
-        print("server: XVideos" )
+        print("server: XVideos")
         print("search: " + search)
         print("page " + str(first_page) + " to " + str(last_page))
         print("-----------------------------------------------------------")
@@ -24,7 +25,7 @@ if len(sys.argv) == 6:
         downloader.download()
     elif server == 'YouPorn':
         print("-----------------------------------------------------------")
-        print("server: YouPorn" )
+        print("server: YouPorn")
         print("search: " + search)
         print("page " + str(first_page) + " to " + str(last_page))
         print("-----------------------------------------------------------")
@@ -32,7 +33,7 @@ if len(sys.argv) == 6:
         downloader.download()
     elif server == 'RedTube':
         print("-----------------------------------------------------------")
-        print("server: RedTube" )
+        print("server: RedTube")
         print("search: " + search)
         print("page " + str(first_page) + " to " + str(last_page))
         print("-----------------------------------------------------------")
@@ -61,6 +62,14 @@ if len(sys.argv) == 6:
         print("page " + str(first_page) + " to " + str(last_page))
         print("-----------------------------------------------------------")
         downloader = DownloaderXHamster(output_dir, search, first_page, last_page)
+        downloader.download()
+    elif server == 'EPorner':
+        print("-----------------------------------------------------------")
+        print("server: EPorner")
+        print("search: " + search)
+        print("page " + str(first_page) + " to " + str(last_page))
+        print("-----------------------------------------------------------")
+        downloader = DownloaderEporner(output_dir, search, first_page, last_page)
         downloader.download()
     else:
         print('Server not found')
