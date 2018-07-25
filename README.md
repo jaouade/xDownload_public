@@ -10,6 +10,13 @@ ou
 
 `python main.py [servidor] [pesquisa] [pagina inicial] [pagina final] [pasta de saida]`
 
+### Antes de executar o arquivo mainGUI.py
+>Para execução correta da aplicação xDownload, se faz necessário a instalação das seguintes bibliotecas:
+
+- requests `pip install requests`
+- bs4 `pip install bs4`
+- selenium `pip install selenium`
+
 ### Servidores Suportados
 - XVideos
 - Youporn
