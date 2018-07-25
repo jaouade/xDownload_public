@@ -15,7 +15,7 @@ or
 - bs4 `pip install bs4`
 - selenium `pip install selenium`
 
-### SUported servers
+### Supported servers
 - XVideos
 - Youporn
 - RedTube
