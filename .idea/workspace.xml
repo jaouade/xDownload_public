@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="77e85443-f40f-4790-b49b-405f657f3b7c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CConexao.py" beforeDir="false" afterPath="$PROJECT_DIR$/CConection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDownloaderBeeg.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderBeeg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDownloaderPornHub.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderPornHub.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDownloaderRedTube.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderRedTube.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDownloaderXHamster.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderXHamster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDownloaderXvideos.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderXvideos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDownloaderYouPorn.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderYouPorn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/argumentos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,12 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="275">
-                <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <first_editor relative-caret-position="238">
+                <caret line="23" column="53" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="53" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainGUI.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainGUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainGUI.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -118,12 +109,12 @@
         <option value="$PROJECT_DIR$/CDownloaderYouPorn.py" />
         <option value="$PROJECT_DIR$/CDownloaderPornHub.py" />
         <option value="$PROJECT_DIR$/CDownloaderXHamster.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/CConetion.py" />
         <option value="$PROJECT_DIR$/CDownloaderBeeg.py" />
         <option value="$PROJECT_DIR$/CConection.py" />
         <option value="$PROJECT_DIR$/mainGUI.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -368,19 +359,33 @@
       <option name="project" value="LOCAL" />
       <updated>1532531567045</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Code english translation">
+      <created>1532547087963</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1532547087963</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Code english translation 2">
+      <created>1532547226713</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1532547226713</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1566618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1566618" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.209622" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29570746" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29570746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -406,7 +411,9 @@
     <MESSAGE value="Retirado o Pass das funções" />
     <MESSAGE value="Adicionado Pornhub" />
     <MESSAGE value="Corrigido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrigido" />
+    <MESSAGE value="Code english translation" />
+    <MESSAGE value="Code english translation 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code english translation 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,21 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="275">
-            <caret line="18" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CDownloaderXHamster.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -581,10 +573,25 @@
     <entry file="file://$PROJECT_DIR$/mainGUI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="23" column="53" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>

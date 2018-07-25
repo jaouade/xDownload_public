@@ -1,30 +1,26 @@
 # xDownload
-### Versão do Python 3.6
->A **mainGUI** está executando sem congelamento.
->Para executar o programa, por hora, basta executar a mainGUI.py 
->com oseguinte comando:
+### Python Version 3.6
+>To start the application, just run the command below:
 
 `python mainGUI.py` 
 
-ou
+or
 
-`python main.py [servidor] [pesquisa] [pagina inicial] [pagina final] [pasta de saida]`
+`python main.py [server] [search] [first page] [last page] [output dir]`
 
-### Antes de executar o arquivo mainGUI.py
->Para execução correta da aplicação xDownload, se faz necessário a instalação das seguintes bibliotecas:
+### Before run this application by the archives mainGUI.py or main.py
+>It's necessary to install the libraries bellow to correctly run:
 
 - requests `pip install requests`
 - bs4 `pip install bs4`
 - selenium `pip install selenium`
 
-### Servidores Suportados
+### SUported servers
 - XVideos
 - Youporn
 - RedTube
 - PornHub
 - Beeg
-    - Necessário google Chrome instalado no diretório:
-        - `C:\Program Files (x86)\Google\Chrome\Application`
-    - Necessário ChromeDrive instalado: [Download](http://chromedriver.chromium.org/downloads)
-    - Necessário a biblioteca Selenium instalada:
-        - `pip install selenium`
+    - It's necessary to install Google Chrome in the directory bellow:
+        `C:\Program Files (x86)\Google\Chrome\Application`
+    - It's necessary the chrome drive installed: [Download](http://chromedriver.chromium.org/downloads)
