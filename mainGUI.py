@@ -52,7 +52,14 @@ lblserver.place(x=10, y=line3)
 box_value = StringVar()
 cbserver = ttk.Combobox(mainGUI, textvariable=box_value, width=27)
 cbserver.place(x=70, y=line3)
-cbserver['values'] = ('XVideos', 'YouPorn', 'RedTube', 'PornHub', 'Beeg', 'XHamster', 'EPorner')
+cbserver['values'] = ('XVideos',
+                      'YouPorn',
+                      'RedTube',
+                      'PornHub',
+                      'Beeg',
+                      'XHamster',
+                      'EPorner',
+                      'Porn')
 
 lblOutPut = Label(mainGUI, text="Output dir:")
 lblOutPut.place(x=10, y=line4)
