@@ -1,7 +1,6 @@
 import requests
 import bs4
 import os
-import time
 from CConection import Conection
 
 
@@ -13,19 +12,26 @@ class DownloaderYouPorn:
         self.first_page = _first_page
         self.last_page = _last_page
         self.i = 1
-        self.tent = 0
+        self.j = 1
         self.Conection = Conection()
+        self.list_link = []
 
     def download(self):
+        self.list_link = self.get_list_link()
+        if self.list_link != 0:
+            for j in range(0, len(self.get_list_link())):
+                command = 'youtube-dl \"' + self.list_link[j] + '\"' + ' --output \\' + self.output_dir + '\\%(title)s.%(ext)s'
+                os.system(command)
+
+    def get_list_link(self):
         if self.Conection.get_status():
             for self.i in range(self.first_page, self.last_page):
                 response = requests.get(str('https://www.youporn.com/search/?query=' + self.search + '&page=' + str(self.i)))
                 soup = bs4.BeautifulSoup(response.text, "html.parser")
                 for div in soup.find_all(class_='video-box four-column video_block_wrapper'):  # video-box four-column video_block_wrapper é a classe de div que contem os links
                     link = "https://www.youporn.com" + str(div.find('a')['href'])
-                    comando = 'youtube-dl \"' + link + '\"' + ' --output \\' + self.output_dir + '\\%(title)s.%(ext)s'
-                    os.system(comando)
+                    self.list_link.append(link)
+            return self.list_link
         else:
-            self.tent += 1
-            print("No conection... " + str(self.tent))
-            time.sleep(5)
+            print("No conection... ")
+            return 0

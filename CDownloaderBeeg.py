@@ -17,10 +17,18 @@ class DownloaderBeeg:
         self.first_page = _first_page
         self.last_page = _last_page
         self.i = 1
-        self.tent = 0
+        self.j = 1
         self.Conection = Conection()
+        self.list_link = []
 
     def download(self):
+        self.list_link = self.get_list_link()
+        if self.list_link != 0:
+            for j in range(0, len(self.get_list_link())):
+                command = 'youtube-dl \"' + self.list_link[j] + '\"' + ' --output \\' + self.output_dir + '\\%(title)s.%(ext)s'
+                os.system(command)
+
+    def get_list_link(self):
         if self.Conection.get_status():
             url = str('https://www.beeg.com/tag/' + self.search)
 
@@ -37,8 +45,8 @@ class DownloaderBeeg:
                 soup = bs4.BeautifulSoup(html, "html.parser")
                 for div in soup.find_all(class_='thumb-unit'):  # thumb-unit é a classe de div que contem os links
                     link = "https://beeg.com" + str(div.find('a')['href'])
-                    comando = 'youtube-dl \"' + link + '\"' + ' --output \\' + self.output_dir + '\\%(title)s.%(ext)s'
-                    os.system(comando)
+                    self.list_link.append(link)
+                return self.list_link
             except TimeoutException:
                 print("Tempo de carregamento esgotado!")
             except:
@@ -46,6 +54,5 @@ class DownloaderBeeg:
                 print("Tempo limite para o carregamento da página esgotado.")
                 print("Tente novamente!")
         else:
-            self.tent += 1
-            print("No conection... " + str(self.tent))
-            time.sleep(5)
+            print("No conection... ")
+            return 0
