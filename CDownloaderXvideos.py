@@ -4,6 +4,8 @@ import os
 from CConection import Conection
 import json
 import io
+import subprocess
+from subprocess import DEVNULL, STDOUT, check_call
 
 
 class DownloaderXvideos:
@@ -25,6 +27,17 @@ class DownloaderXvideos:
                 self.json_details_write(len(self.list_link), j, self.list_link[j])
                 command = 'youtube-dl \"' + self.list_link[j] + '\"' + ' --output \\' + self.output_dir + '\\%(title)s.%(ext)s'
                 os.system(command)
+
+    def download_hiden(self):
+        self.list_link = self.get_list_link()
+        if self.list_link != 0:
+            for j in range(0, len(self.list_link)):
+                self.json_details_write(len(self.list_link), j, self.list_link[j])
+                command = 'youtube-dl \"' + self.list_link[j] + '\"' + ' --output \\' + self.output_dir + '\\%(title)s.%(ext)s'
+                info = subprocess.STARTUPINFO()
+                info.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+                info.wShowWindow = subprocess.SW_HIDE
+                proc = subprocess.call(command, startupinfo=info)
 
     def get_list_link(self):
         if self.Conection.get_status():
