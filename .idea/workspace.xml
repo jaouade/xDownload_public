@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="77e85443-f40f-4790-b49b-405f657f3b7c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDownloaderXvideos.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDownloaderXvideos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a/Sexy Jap In Fishnet Bodysuit Gets A Creampie - PORN.COM.mp4.part" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.pyw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainGUI.pyw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start_window.bat" beforeDir="false" afterPath="$PROJECT_DIR$/start_window.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainGUI.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/mainGUI.pyw" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +18,34 @@
       <file leaf-file-name="mainGUI.pyw" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainGUI.pyw">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+            <state relative-caret-position="326">
+              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CDownloaderXvideos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +85,7 @@
         <option value="$PROJECT_DIR$/mainGUI.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/CDownloaderXvideos.py" />
+        <option value="$PROJECT_DIR$/main.pyw" />
         <option value="$PROJECT_DIR$/mainGUI.pyw" />
       </list>
     </option>
@@ -143,7 +164,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\jrdut\Desktop\PYTHON\xDownload\main.pyw" />
+      <option name="SCRIPT_NAME" value="C:\Users\jrdut\Desktop\PYTHON\xDownload\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,20 +422,26 @@
       <option name="project" value="LOCAL" />
       <updated>1532634191752</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Running All in Background">
+      <created>1532639307421</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1532639307421</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15959005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15959005" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.209622" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29570746" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29570746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -425,6 +452,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -445,7 +473,8 @@
     <MESSAGE value="get_list_link implemented" />
     <MESSAGE value="Writing the JSON File" />
     <MESSAGE value="Included porn.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="Included porn.com" />
+    <MESSAGE value="Running All in Background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Running All in Background" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,45 +497,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.pyw">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.pyw" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.pyw" />
     <entry file="file://$PROJECT_DIR$/CDownloaderYouPorn.py" />
     <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderRedTube.py" />
-    <entry file="file://$PROJECT_DIR$/main.pyw" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderYouPorn.py" />
     <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.pyw" />
-    <entry file="file://$PROJECT_DIR$/main.pyw" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.pyw" />
-    <entry file="file://$PROJECT_DIR$/main.pyw" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.pyw" />
-    <entry file="file://$PROJECT_DIR$/main.pyw" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.pyw" />
     <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
-    <entry file="file://$PROJECT_DIR$/main.pyw" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.pyw" />
-    <entry file="file://$PROJECT_DIR$/main.pyw" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/mainGUI.pyw" />
-    <entry file="file://$PROJECT_DIR$/main.pyw" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/CConection.py" />
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py" />
     <entry file="file://$PROJECT_DIR$/venv/XVideosDownloader.py" />
@@ -546,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CDownloaderRedTube.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CDownloaderXHamster.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-200">
@@ -568,6 +590,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="459">
@@ -576,26 +603,28 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CDownloaderRedTube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CDownloaderXvideos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="310">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.pyw">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="175">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -604,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainGUI.pyw">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        <state relative-caret-position="326">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
