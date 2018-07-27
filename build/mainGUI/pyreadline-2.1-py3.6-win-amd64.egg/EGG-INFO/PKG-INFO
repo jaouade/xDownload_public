@@ -1,9 +1,0 @@
-Metadata-Version: 1.0
-Version: 2.1
-Author: Jorgen Stenarson
-Author-Email: jorgen.stenarson@kroywen.se
-Description: A python implmementation of GNU readline.
-Maintainer: Jorgen Stenarson
-Maintainer-Email: jorgen.stenarson@kroywen.se
-Name: pyreadline
-Url: http://ipython.org/pyreadline.html
