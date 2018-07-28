@@ -60,6 +60,7 @@ cbserver['values'] = ('XVideos',
                       'XHamster',
                       'EPorner',
                       'Porn',
+                      'PornHD',
                       'GotPorn')
 
 lblOutPut = Label(mainGUI, text="Out dir:")
